@@ -2,7 +2,7 @@
 # Cookbook Name:: mlocate
 # Recipe:: default
 #
-# Copyright (C) 2014 YOUR_NAME
+# Copyright (C) 2014 Greg Palmier
 #
 # All rights reserved - Redistribute
 #
@@ -12,5 +12,5 @@ end
 
 execute "mlocate" do
   command "mlocate"
-  not_if { ::File.exists?("/var/lib/mlocate/mlocate.db")}
+  not_if { ::File.exists?("/var/lib/mlocate/mlocate.db") }
 end
