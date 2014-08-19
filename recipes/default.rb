@@ -6,11 +6,11 @@
 #
 # All rights reserved - Redistribute
 #
-package "mlocate" do
+package 'mlocate' do
   action :install
 end
 
-execute "mlocate" do
-  command "mlocate"
-  not_if { ::File.exists?("/var/lib/mlocate/mlocate.db") }
+execute 'mlocate' do
+  command 'mlocate'
+  not_if { ::File.exists?('/var/lib/mlocate/mlocate.db') }
 end
