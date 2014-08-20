@@ -1,10 +1,12 @@
 # mlocate-cookbook
 
-TODO: Enter the cookbook description here.
+[![Build Status](https://secure.travis-ci.org/gregpalmier/mlocate-cookbook.png)](http://travis-ci.org/gregpalmier/mlocate-cookbook)
+
+mlocate cookbook for chef
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+debian / ubuntu
 
 ## Attributes
 
