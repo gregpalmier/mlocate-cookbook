@@ -14,14 +14,12 @@ None.
 
 ## Usage
 
-### mlocate-cookbook::default
-
-Include `mlocate-cookbook` in your node's `run_list`:
+Include `mlocate` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[mlocate-cookbook::default]"
+    "recipe[mlocate::default]"
   ]
 }
 ```
