@@ -20,7 +20,7 @@ package 'mlocate' do
   action :install
 end
 
-execute 'mlocate' do
-  command 'mlocate'
-  not_if { ::File.exists?('/var/lib/mlocate/mlocate.db') }
+execute 'updatedb' do
+  command 'updatedb'
+#  not_if { ::File.exist?('/var/lib/mlocate/mlocate.db') }
 end
