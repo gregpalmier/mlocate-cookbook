@@ -6,4 +6,3 @@ bundler_args: --without integration development
 script:
   - bundle exec foodcritic -f any .
   - bundle exec rubocop
-  - bundle exec rspec --color --format progress
