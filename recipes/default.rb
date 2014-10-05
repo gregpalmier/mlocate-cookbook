@@ -22,5 +22,4 @@ end
 
 execute 'updatedb' do
   command 'updatedb'
-#  not_if { ::File.exist?('/var/lib/mlocate/mlocate.db') }
 end
