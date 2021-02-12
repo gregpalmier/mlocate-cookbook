@@ -35,4 +35,4 @@ Include `mlocate` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: greg palmier(<gregpalmier@gmail.com>)
+Author:: greg palmier
